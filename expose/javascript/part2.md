@@ -43,7 +43,7 @@
 17. The result will be [2, 4, 6] since in the modifyArray function we are modifying each value using the doSomething function, which multiplies the value by 2. So essentially what we are doing is newArr.push(array[i] * 2) for each i.
 18. Check code.
 19. 
-1
-4
-3
-2
+1 <br>
+4 <br>
+3 <br>
+2 <br>
