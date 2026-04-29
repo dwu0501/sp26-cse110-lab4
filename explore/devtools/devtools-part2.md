@@ -1,9 +1,2 @@
-1. citylots.json
-2. expose.js
-3. 584944 Bytes or 586 kB
-4. 6.71ms
-5. Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-6. GitHub.com
-7. Tue, 21 Apr 2026 05:07:14 GMT
-8. application/json; charset=utf-8
-9. async function fetchData()
+1. The bug was that variables num1 and num2 were treated as strings, which made the sum become string concatenation instead of an actual numeric sum.
+2. The solution is to call the Number() on both variables so we have the sum we want.
